@@ -1,0 +1,168 @@
+/* @media only screen and (max-width:500px) {} code for changing style in devices with width less than 500px  */
+@media only screen and (max-width:500px) {
+  .navbar {
+    float: left;
+    margin-left: -30px;
+    display: none;
+  }
+  .navbar a {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+/*  flex-direction: column-reverse; line for setting items top to bottom and reverse for bottom to top */
+  .home {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .home-content h3 {
+    font-size: 25px;
+  }
+  .home-content h1 {
+    font-size: 35px;
+  }
+  .home-image {
+    margin-bottom: 50px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-img {
+    margin-bottom: 50px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-text h2 {
+    font-size: 50px;
+  }
+  #hamburger {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 14px;
+  z-index: 101;
+  cursor: pointer;
+}
+#hamburger div {
+  height: 2px;
+      background: #ffffff;
+      width: 20px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      display: block;
+}
+#hamburger div:nth-child(2) {
+width: 15px;
+}
+#hamburger div:nth-child(3) {
+width: 10px;
+}
+#side-menu-new {
+      background: #081b29;
+      height: 100%;
+      width:70%;
+      position: fixed;
+      left: -1500px;
+      top: 0;
+      z-index: 102;
+      border: none;
+      overflow: hidden;
+      transition: all 0.5s;
+      display: block;
+    }
+    #prevent {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 101;
+      display: none;
+      transition: all 0.5s;
+    }
+    #menu-content {
+      padding: 0px;
+      margin-top: 10%;
+      display: block;
+    }
+    #menu-content a {
+      color: #ffffff;
+      text-decoration: none;
+      display: flex;
+      padding: 14px;
+      width: 100%;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 7%;
+      margin-bottom: -20px;
+      outline: none;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+    }
+    #menu-content a:hover {
+            text-decoration: underline;
+    }
+}
+
+@keyframes slideTop {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideBottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .portfolio {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+  }
+  @-ms-viewport {
+  width: device-width;
+  }
+  

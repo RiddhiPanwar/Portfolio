@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+     <script src=
+        "https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js">
+    </script>
+
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <header class="header">
+      <a href="#home" class="logo">Portfolio.</a>
+
+      <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div id="side-menu-new">
+
+        <div id="menu-content">
+          <a href="#home" class="active">Home</a><br/><br/>
+          <a href="#about">About</a><br/><br/>
+          <a href="#services">Skills</a><br/><br/>
+          <a href="#portfolio">Portfolio</a><br/><br/>
+          <a href="#contact">Contact</a><br/><br/>
+        </div>
+
+      </div>
+
+      <div id="prevent"></div>
+
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#services" style="--i: 3">Skills</a>
+        <a href="#portfolio" style="--i: 4">Portfolio</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Riddhi Panwar</h1>
+        <span class="text-slider-items">
+                Frontend Developer, Web Developer
+            </span>
+        <h3>And I'm a <span class="navnavnav"></span></h3>
+        <p>
+          Frontend developer with 3 years of experience designing and building
+          responsive, user-focused interfaces. Proficient in JavaScript and
+          modern frameworks, I specialize in crafting visually appealing and
+          high-performance web solutions.
+        </p>
+        <div class="home-sci">
+          <a
+            href="https://www.linkedin.com/in/riddhi-panwar-659335273/"
+            style="--i: 7"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/RiddhiPanwar" style="--i: 8"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:riddhipanwar0511@gmail.com" style="--i: 9"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+          <a href="https://x.com/riddhi_panwar" style="--i: 10"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+      </div>
+      <div class="home-image">
+        <img src="riddhi.jpg" alt="Riddhi Panwar" />
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="riddhi (2).jpg" alt="image" />
+</div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>Frontend Web developer</h4>
+          <p>
+            I am a passionate Frontend Developer with expertise in JavaScript,
+            HTML, CSS, and modern frameworks. I specialize in creating
+            responsive, user-focused web applications that seamlessly blend
+            functionality and aesthetics. With a creative background in
+            painting, I bring a unique perspective to web design, crafting
+            solutions that are both visually appealing and technically robust.
+            Committed to continuous learning, I strive to stay at the forefront
+            of modern web development trends.
+          </p>
+          <a href="My Resume.pdf" class="btn-box">My Professional Background</a>
+        </div>
+
+    </section>
+
+    <!-- Service Section -->
+
+    <section>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="bx bx-code" style="color: #00eeff"></i>
+              <h2>Responsive Web Design</h2>
+              <p>
+                Crafting visually appealing and user-friendly designs that work
+                seamlessly on all devices.
+              </p>
+              <a
+                href="https://www.w3schools.com/html/html_responsive.asp"
+                class="read"
+                >Learn more</a
+              >
+            </div>
+
+            <div>
+              <i class="bx bx-crop" style="color: #00eeff"></i>
+              <h2>Flexible Layouts</h2>
+              <p>
+                Your website will automatically adjust to fit any screen size,
+                making sure it looks good on phones, tablets, and desktops
+                without any issues.
+              </p>
+              <a
+                href="https://www.w3schools.com/html/html_layout.asp"
+                class="read"
+                >Learn more</a
+              >
+            </div>
+
+            <div>
+              <i class="bx bxl-apple" style="color: #00eeff"></i>
+              <h2>Cross-Device Support</h2>
+              <p>
+                I make sure your website works smoothly across all devices, from
+                smartphones to desktop computers, providing a consistent
+                experience for all users.
+              </p>
+              <a
+                href="https://www.w3schools.com/cssref/css3_browsersupport.php"
+                class="read"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+      <div class="container1" id="Skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar">
+            <i style="color: #c95d2e" class="bx bxl-html5"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #147bbc" class="bx bxl-css3"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #b0bc1e" class="bx bxl-javascript"></i>
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line javaScript">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #69bcbc" class="bx bxl-react"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #00599c" class="bx bxl-c-plus-plus"></i>
+            <div class="info">
+              <span>C++</span>
+            </div>
+            <div class="progress-line c-plus-plus">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Creativity</div>
+        </div>
+
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">65%</div>
+          <div class="text">Communication</div>
+        </div>
+
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Consistency</div>
+        </div>
+
+        <div class="radial-bars">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">70%</div>
+          <div class="text">Collaboration</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section>
+      <div id="portfolio" id="portfolio">
+        <div class="main-text">
+          <h2>Latest <span>Project</span></h2>
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="1.png" alt="image" />
+              <div class="layer">
+                <h5>WebWave</h5>
+                <p>
+                  WebWave Bootstrap is a drag-and-drop website builder that uses
+                  Bootstrap for responsive design, allowing easy customization
+                  without coding.
+                </p>
+              </div>
+              <div class="btn">
+                <a href="https://riddhipanwar.github.io/WebWave_Bootstrap/">
+                  <i class="bx bx-link-external" style="color: aliceblue"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="2.jpg" alt="image" />
+              <div class="layer">
+                <h5>Currency-Converter</h5>
+                <p>
+                  Currency Converter is a tool that allows users to convert one
+                  currency to another using real-time exchange rates.
+                </p>
+              </div>
+              <div class="btn">
+                <a href="https://riddhipanwar.github.io/Currency-Converter/">
+                  <i class="bx bx-link-external" style="color: aliceblue"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="3.webp" alt="image" />
+              <div class="layer">
+                <h5>Tic-Tac-Toe</h5>
+                <p>
+                  Tic-Tac-Toe is a simple 2-player game where players take turns
+                  marking X or O on a 3x3 grid to align three in a row.
+                </p>
+              </div>
+              <div class="btn">
+                <a href="https://riddhipanwar.github.io/Tic-Tac-Toe-Game/">
+                  <i class="bx bx-link-external" style="color: aliceblue"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>
+          Feel free to reach out for any project inquiries or collaborations.
+          I'm always open to discussing new ideas and opportunities.
+        </p>
+        <div class="contact-list">
+          <li><i class="bx bxs-send"></i>riddhipanwar0511@gmail.com</li>
+          <li><i class="bx bxs-phone"></i>+91 8178350939</li>
+        </div>
+        <div class="contact-icons">
+          <a href="mailto:riddhipanwar0511@gmail.com"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+          <a href="https://x.com/riddhi_panwar"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/riddhi-panwar-659335273/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/RiddhiPanwar"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="submit" class="send" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <div class="last-text">
+      <p>Designed and developed by Riddhi Panwar © 2024</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+  var burger = document.getElementById("hamburger");
+  var sm = document.getElementById("side-menu-new");
+  var pvt = document.getElementById("prevent");
+  burger.addEventListener("click", function() {
+    sm.style.left = "0px";
+    pvt.style.display = 'block';
+  });
+  pvt.addEventListener("click", function() {
+    sm.style.left = "-1500px";
+    pvt.style.display = 'none';
+  });
+</script>
+  </body>
+</html>
